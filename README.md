@@ -42,4 +42,14 @@ npx tsc --noEmit
 
 Đã kiểm tra TypeScript và thử nghiệm hai máy ảo gửi tin hai chiều, hiển thị số chưa đọc, trạng thái online và tin vị trí.
 
-Repo chỉ chứa mã nguồn và cấu hình cần thiết; không chứa node_modules, thư mục build, ios/Pods hoặc các tệp ảnh/video/ZIP dùng để nộp minh chứng.
+Repo gồm mã nguồn, cấu hình cần thiết và ảnh/video minh chứng; không chứa node_modules, thư mục build, ios/Pods, ZIP hoặc công cụ phụ.
+
+## Minh chứng
+
+- [Đăng ký](docs/minh-chung/anh/01-dang-ky.png)
+- [Home có số tin chưa đọc](docs/minh-chung/anh/02-home-chua-doc.png)
+- [Danh bạ có trạng thái online](docs/minh-chung/anh/03-danh-ba-online.png)
+- [Chat có tin văn bản và vị trí](docs/minh-chung/anh/04-chat-vi-tri.png)
+- [Video hai máy ảo chat với nhau — khoảng 100 giây](docs/minh-chung/video/06-chat-hai-thiet-bi.mp4)
+
+Video quay đồng thời hai máy ảo, đặt cạnh nhau để thấy tin nhắn truyền hai chiều và tin vị trí xuất hiện. Vị trí sử dụng GPS mô phỏng của Android Emulator.
